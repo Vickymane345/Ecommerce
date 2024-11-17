@@ -114,7 +114,7 @@ const Shop = ({addToCart, size, toggleSideBarMenu, setSideBarMenu, SideBarMenu, 
                             className='md:flex lg:text-lg relative items-center md:text-xs md:space-x-8 lg:space-x-14 xl:space-x-10'>
                        
                             <Link to = '/Profile'>
-                                <li className='sm:hidden md:inline-block  lg:inline-block hidden'><IoIosClose className=''/></li>
+                                <li className='sm:hidden md:inline-block  lg:inline-block hidden'><IoMdPerson className=''/></li>
                             </Link>
 
                             <li className='sm:hidden md:flex items-center lg:flex hidden'>
