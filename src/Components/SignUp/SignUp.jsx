@@ -26,13 +26,13 @@ const SignUp = ({handleChange,address,handleAddressChange,handleLastNameChange, 
                 
                     <div className='space-y-3'>
                         <label htmlFor="" className='block text-start'>First Name</label>
-                        <input type="text" name='fName' value={firstName} onChange={handleFirstNameChange} required className='py-2 w-full border-2 px-10' />
+                        <input type="text" name='fName' value={firstName} onChange={handleFirstNameChange} required className='py-2 w-full border-2 px-2' />
                     </div>
 
                 
                                     <div className='space-y-3'>
                         <label className='block text-start'>Last Name</label>
-                        <input type="text" name='lName' onChange={handleLastNameChange} value={lastName} required className='py-2 w-full border-2 px-10' />
+                        <input type="text" name='lName' onChange={handleLastNameChange} value={lastName} required className='py-2 w-full border-2 px-2' />
                     </div>
                 <div className='space-y-2'>
                     <label htmlFor="" className='block '>Email</label>
